@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Papyrus',Rockwell;
+}
+
+div{
+    background-color: #00425A;
+    position: relative;
+}
+
+/********** 1em = 16px = 100% ***********/
+
+
+p{
+    font-family: Rockwell;
+    font-size: 1.2em;
+    color: #00EAD3
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+/********** clear is opposite of float **********/
+/* .skill-second-paragraph{
+    clear: right;
+} */
+
+h1{
+    
+    font-size: 562.5%;
+    width :25%;
+    margin: auto; /*if block element has width set than use auto */
+    color: #4CAF50;
+    /* line-height: 2; */
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+a{
+    color: #66BFBF;
+}
+
+#p {
+    width: 50%;
+}
+
+
+
+
+/*************** Images ****************/
+
+.top-cloud{
+    position: absolute;
+    right: 30%;
+    top: 16%;
+    width:10%
+}
+
+.Bottom-cloud{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width:10%
+    /* clear: right; */
+}
+
+.robot{
+    margin-top: 5%;
+    height: 300px;
+}
+.My_pfp{
+    border-radius: 50%;
+    height: 120px;
+    margin-top: 5%;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    padding-bottom : 1.5%;
+}
+
+
+.computer{
+    height: 1;
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+}
+
+.engineer{
+    height: 1250%;
+    width: 25%;
+    float: right;
+}
+
+.syntax{
+    height: 190px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+    border-radius: 80%;
+
+}
+
+.git{
+    height: 190px;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+    border-radius: 80%;
+}
+
+.syntax{
+    width:15%;
+    height:20%;
+
+  }
+
+  .git{
+    width: 15%;
+    height:20%;
+  }
+
+
+.btn {
+    background: #6534d9;
+    background-image: -webkit-linear-gradient(top, #6534d9, #2980b9);
+    background-image: -moz-linear-gradient(top, #6534d9, #2980b9);
+    background-image: -ms-linear-gradient(top, #6534d9, #2980b9);
+    background-image: -o-linear-gradient(top, #6534d9, #2980b9);
+    background-image: linear-gradient(to bottom, #6534d9, #2980b9);
+    -webkit-border-radius: 41;
+    -moz-border-radius: 41;
+    border-radius: 41px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3c62fa;
+    background-image: -webkit-linear-gradient(top, #3c62fa, #6534d9);
+    background-image: -moz-linear-gradient(top, #3c62fa, #6534d9);
+    background-image: -ms-linear-gradient(top, #3c62fa, #6534d9);
+    background-image: -o-linear-gradient(top, #3c62fa, #6534d9);
+    background-image: linear-gradient(to bottom, #3c62fa, #6534d9);
+    text-decoration: none;
+  }
+
+  .contact-me{
+    padding :20px;
+  }
+
+  .bottom-container{
+    padding: 20px;
+  }
+
+  hr{
+   border-style: none;
+   border-top-style: dotted;
+   border-color: #3D5656;
+   border-width: 5px;
+    width: 15%;
+  }
+
+  a{
+    margin: 1% 2%;
+  }
+
+  a:hover{
+    color: whitesmok eb;
+  }
+
+
+  
